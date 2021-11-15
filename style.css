@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+      text-align: center;
+      background-color: black;
+      padding: 50px;
+  }
+
+  header h1 {
+      color: white;
+      font-size: 36px;
+      text-shadow: 2.5px 2.5px rgb(119, 119, 119);   
+  }
+
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgb(211, 211, 109);
+  }
+
+  .input{
+    text-align: center;
+    margin: 100px auto;
+    display: flex;
+  }
+  
+  button {
+    padding: 15px 30px;
+    background: #a8a8a8;
+    border: 2px solid black;
+    border-left: none;
+    border-radius: 0px 3px 3px 0px;
+    font-weight:bold;
+    font-size: 20px;
+    height: 55px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #a8a8a8;
+    border: 2px solid black;
+    border-radius: 3px 0px 0px 3px;
+    border-right: 2px dotted black;
+    font-weight:bold;
+    font-size: 20px;
+    color:rgb(20, 20, 20);
+  }
+  
+  .card{
+    width: 50%;
+    background: #a8a8a8;
+    height: 40vh;
+    margin: 50px auto;
+    border: 2px dotted black;
+    border-radius: 3px;
+    padding: 25px;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:20px 0;
+    font-size:20px;
+  }
+
+  footer {
+    padding: 15px;
+    text-align: center; 
+    background-color: black; 
+  }
+
+  footer div {
+    color: #f8f8f8;  
+  }
+
+  footer div a {
+    color: #f8f8f8;  
+  }

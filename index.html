@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather API</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&family=Teko:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Weather API</h1>
+  </header>
+
+  <div class="container">
+    <div class="input">
+      <input type="text" placeholder="Enter city name:" class="input_text">
+      <button type="submit" class="submit">Submit</button>
+    </div>
+
+    
+      <div class="card">
+        <h1 class="name" id="name"></h1>
+        <p class="temp"></p>
+        <p class="desc"></p>
+        <p class="humid"></p>
+      </div>
+  </div>
+
+  <footer>
+    <div>
+      Copyright <a href="https://github.com/maudeone">@maudeOne</a>, API from 
+      <a href="https://openweathermap.org/current">Openweathermap.org</a>. 
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
