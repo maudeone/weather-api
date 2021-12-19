@@ -25,8 +25,6 @@ This is a weather API project using vanilla JS/CSS. The purpose of this project 
 - API practice
 - Github Pages
 
-[Back To The Top](#Weather API)
-
 ---
 
 ## License
@@ -53,12 +51,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back To The Top](#Weather API)
-
 ---
 
 ## Author Info
 
 - Website - [Michael Ayoub](https://maudeone.github.io/portfolio-app/)
-
-[Back To The Top](#Weather API)
